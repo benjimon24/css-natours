@@ -77,7 +77,11 @@
   }
 
   &:hover {
-    background-color: $color-primary;
+    background-image: linear-gradient(
+      to right bottom,
+      $color-primary-light,
+      $color-primary-dark
+    );
     color: $color-white;
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
     transform: translateY(-0.2rem);
