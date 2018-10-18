@@ -9,14 +9,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: orangered;
     height: 52rem;
     transition: all 0.8s ease;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 1rem;
+    border-radius: $default-border-radius;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+    box-shadow: $shadow-large-light;
 
     &--front {
       background-color: $color-white;

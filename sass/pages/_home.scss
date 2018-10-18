@@ -31,3 +31,21 @@
   position: relative;
   padding: 15rem 0;
 }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+}
+
+.book {
+  background-image: url(../img/nat-10.jpg);
+  background-size: 100%; //means the same exact thing as cover
+  border-radius: $default-border-radius;
+  box-shadow: $shadow-large-light;
+
+  height: 50rem;
+}

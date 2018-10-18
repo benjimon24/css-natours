@@ -3,8 +3,8 @@
 
   &__photo {
     width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
-    border-radius: 2px;
+    box-shadow: $shadow-large-dark;
+    border-radius: $default-border-radius;
     position: absolute;
     z-index: 1;
     transition: all 0.2s;
@@ -28,7 +28,7 @@
     &:hover {
       outline: 1.5rem solid $color-primary;
       transform: scale(1.05) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      box-shadow: $shadow-huge-light;
       z-index: 2;
     }
   }
