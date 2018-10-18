@@ -29,6 +29,11 @@
 
   &__img {
     height: 100%;
+    transform: translateX(-3.5rem) scale(1.4);
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    // backface-visibility is supposed to fix a glitch where the circle is flattened out of shape
+    // but it does not seem to occur anymore
   }
 
   &__text {
@@ -54,5 +59,10 @@
   &:hover &__caption {
     opacity: 1;
     transform: translate(-50%, -50%);
+  }
+
+  &:hover &__img {
+    transform: translateX(-3.5rem) scale(1);
+    filter: blur(3px) brightness(80%);
   }
 }
