@@ -42,7 +42,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
-  transition: all 0.2s;
+  transition: $transition-fastest;
 
   &:hover {
     transform: skewY(1deg) skewX(15deg) scale(1.1);

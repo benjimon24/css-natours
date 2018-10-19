@@ -30,7 +30,7 @@
   &__img {
     height: 100%;
     transform: translateX(-3.5rem) scale(1.4);
-    transition: all 0.5s;
+    transition: $transition-default;
     backface-visibility: hidden;
     // backface-visibility is supposed to fix a glitch where the circle is flattened out of shape
     // but it does not seem to occur anymore
@@ -50,7 +50,7 @@
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all 0.5s;
+    transition: $transition-default;
     backface-visibility: hidden;
     // the backface-visibility prop is supposed to fix a glitch where it shakes or shifts
     // slightly at the end of the animation, but the glitch doesn't seem to be an issue anymore

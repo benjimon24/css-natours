@@ -5,7 +5,7 @@
   text-align: center;
   border-radius: $default-border-radius;
   box-shadow: $shadow-large-dark;
-  transition: transform 0.3s;
+  transition: $transition-faster;
 
   &__icon {
     font-size: 6rem;

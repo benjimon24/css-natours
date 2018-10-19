@@ -7,7 +7,7 @@
     border-radius: $default-border-radius;
     position: absolute;
     z-index: 1;
-    transition: all 0.2s;
+    transition: $transition-fastest;
     outline-offset: 2rem;
 
     &--p1 {
