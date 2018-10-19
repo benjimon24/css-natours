@@ -207,7 +207,7 @@ body {
     backface-visibility: hidden;
     border-radius: 0.3rem;
     overflow: hidden;
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1); }
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
@@ -288,7 +288,7 @@ body {
   position: relative; }
   .composition__photo {
     width: 55%;
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
     border-radius: 0.3rem;
     position: absolute;
     z-index: 1;
@@ -317,7 +317,7 @@ body {
   padding: 2.5rem;
   text-align: center;
   border-radius: 0.3rem;
-  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
   transition: all 0.3s; }
   .feature-box__icon {
     font-size: 6rem;
@@ -404,6 +404,50 @@ body {
 
 .form__radio-input:checked + .form__radio-label .form__radio-button::after {
   opacity: 1; }
+
+.popup {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 50; }
+  .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.3rem;
+    display: table;
+    overflow: hidden; }
+  .popup__left {
+    width: 33.33333333%;
+    display: table-cell; }
+  .popup__right {
+    width: 66.66666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem; }
+  .popup__img {
+    display: block;
+    width: 100%; }
+  .popup__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    -moz-column-count: 2;
+    -moz-column-gap: 4rem;
+    -moz-column-rule: 1px solid #eee;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid #eee;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto; }
 
 .story {
   width: 75%;
@@ -681,7 +725,7 @@ body {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 0.3rem;
-  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
   height: 50rem; }
   .book__form {
     width: 50%;
