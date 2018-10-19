@@ -42,10 +42,22 @@
 }
 
 .book {
-  background-image: url(../img/nat-10.jpg);
+  background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.9) 0%,
+      rgba($color-white, 0.9) 50%,
+      transparent 50%
+    ),
+    // solid colors at the breakpoints
+      url(../img/nat-10.jpg);
   background-size: 100%; //means the same exact thing as cover
   border-radius: $default-border-radius;
   box-shadow: $shadow-large-light;
 
   height: 50rem;
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
 }
