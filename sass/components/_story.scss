@@ -9,6 +9,8 @@
   font-size: $default-font-size;
   transform: skewX(-12deg);
 
+  // > is the immediate child selector, while just having
+  // them sequentially will apply to all descendants
   & > * {
     transform: skewX(12deg);
   }
