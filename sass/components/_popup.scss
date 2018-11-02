@@ -28,6 +28,12 @@
     width: 33.33333333%;
     // float: left;
     display: table-cell;
+
+    @include respond(tab-port) {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 
   &__right {
@@ -36,11 +42,23 @@
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
+
+    @include respond(tab-port) {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 
   &__img {
     display: block;
     width: 100%;
+
+    @include respond(tab-port) {
+      display: inline-block;
+      max-width: 49%;
+      height: 20rem;
+    }
   }
 
   &__text {
