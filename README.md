@@ -13,6 +13,11 @@ Jonas Schmedtmann (link below).
 
 1.  HTML5, CSS3
 
+## Developer Tools
+
+1.  Make sure to type in npm run compile:sass when editing SASS files.
+2.  Auto-reload pages by using "live-server"
+
 ## Link
 
 - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
