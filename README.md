@@ -18,6 +18,28 @@ Jonas Schmedtmann (link below).
 1.  Make sure to type in npm run compile:sass when editing SASS files.
 2.  Auto-reload pages by using "live-server"
 
+## Installing SASS for the first time
+
+1. Install node-sass
+
+```
+npm install node-sass --save-dev
+```
+
+2. Update package.json with script:
+
+```
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+```
+
+3. Run script using:
+
+```
+npm run compile:sass
+```
+
 ## Link
 
 - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
