@@ -1,6 +1,6 @@
 # Natours
 
-A stylish webpage modelled after an app for discovering nature tours. Features advanced CSS techniques such as animations, pseudo-classes, clip-paths, and more to come!
+A stylish webpage modelled after an app for discovering nature tours. Features advanced CSS techniques such as animations, pseudo-classes, clip-paths, SASS mixins and variables, and more! Demonstrates the use of the block-element-modifier naming convention in HTML markup. Also demonstrates the structure of modern SASS architecture.
 
 Part of the "Advanced CSS and Sass: Flexbox, Grid, Animations and More!" course by
 Jonas Schmedtmann (link below).
